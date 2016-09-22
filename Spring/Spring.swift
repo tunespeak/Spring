@@ -170,9 +170,11 @@ public class Spring : NSObject {
         if let animation = AnimationPreset(rawValue: animation) {
             switch animation {
             case .SlideLeft:
-                x = 300*force
+            // Tunespeak Addition
+                x = UIScreen.main.bounds.width
             case .SlideRight:
-                x = -300*force
+            // Tunespeak Addition
+                x = -UIScreen.main.bounds.width
             case .SlideDown:
                 y = -300*force
             case .SlideUp:
