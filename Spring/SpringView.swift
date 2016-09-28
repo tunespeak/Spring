@@ -53,7 +53,7 @@ open class SpringView: UIView, Springable {
         spring.customLayoutSubviews()
     }
     
-    open public func animate() {
+    open func animate() {
         self.spring.animate()
     }
 
