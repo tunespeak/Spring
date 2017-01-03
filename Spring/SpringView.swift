@@ -62,7 +62,7 @@ open class SpringView: UIView, Springable {
     }
 
     public func animateTo() {
-        self.animation = animation
+        self.animation = "\(animation)"
         self.spring.animateTo()
     }
 
