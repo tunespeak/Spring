@@ -61,7 +61,7 @@ open class SpringView: UIView, Springable {
         self.spring.animateNext(completion: completion)
     }
 
-    public func animateTo() {
+    open func animateTo() {
         self.spring.animateTo()
     }
 
