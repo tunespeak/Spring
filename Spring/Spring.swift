@@ -176,9 +176,9 @@ public class Spring : NSObject {
             // Tunespeak Addition
                 x = -UIScreen.main.bounds.width
             case .SlideDown:
-                y = -300*force
+                y = -UIScreen.main.bounds.height
             case .SlideUp:
-                y = 300*force
+                y = UIScreen.main.bounds.height
             case .SqueezeLeft:
                 x = 300
                 scaleX = 3*force
